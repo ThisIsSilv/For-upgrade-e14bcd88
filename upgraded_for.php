@@ -1,5 +1,5 @@
 <?php
-$array = array(
+$vrienden = array(
     "Kreeft\n",
     "Bob\n",
     "Klaas\n",
@@ -7,11 +7,8 @@ $array = array(
     "Geel\n",
     "Driehoek\n",
     "kwart voor drie\n",
-
-
 );
 
-foreach ($array as $value) {
-
-
-echo "$value";}
+foreach ($vrienden as $vriend) {
+    echo "$vriend";
+}
